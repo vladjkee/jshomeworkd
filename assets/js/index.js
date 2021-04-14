@@ -164,8 +164,8 @@ class Faculty {
     this._chair = newValue;
   }
  
-  _validateType(value, type){
-    if(typeof(value) !== type){
+  _validateType(newValue, type){
+    if(typeof(newValue) !== type){
       throw new TypeError();
     }
   }
